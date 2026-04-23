@@ -25,7 +25,11 @@ description: >-
 - правила **3, 4, 5, 16, 17, 19** и файл [directives-forms-cs.md](../coding-standards/reference/directives-forms-cs.md);
 - общий чеклист перед коммитом: [checklist-precommit.md](../coding-standards/checklist-precommit.md).
 
+Справочник по MCP для форм, XSD, XML и приоритетам поиска — [README MCP](../../mcp/README.md) (детальный конвейер без привязки к серверам — [form-metadata-xml-pipeline.md](reference/form-metadata-xml-pipeline.md)).
+
 Этот навык дополняет его **практикой модуля формы**: порядок событий, динамические списки, программное оформление, ТЧ, оповещения, какие типы значений можно передавать между клиентом и сервером.
+
+Правка **структуры объекта** в выгрузке (`Configuration.xml`, `Catalogs/…/*.xml`) и **целостность Form.xml** как XML — навык **[metadata_manage](../metadata_manage/SKILL.md)** (вместе с этим навыком при полном цикле формы).
 
 ## Критический принцип
 
