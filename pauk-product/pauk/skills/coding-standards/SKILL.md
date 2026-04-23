@@ -39,11 +39,12 @@ description: >-
 1. **Индекс ниже** — по номеру правила видно тему и файл с разбором и примерами.
 2. **[templates.md](templates.md)** — заготовки общего модуля, формы, именования, строк, `НСтр()`.
 3. **Модуль управляемой формы** (события, динамические списки, ТЧ, оповещения, чеклист формы) — навык [form_patterns/SKILL.md](../form_patterns/SKILL.md); директивы и правило «один вызов вместо нескольких» — в `directives-forms-cs.md` ниже.
-4. **Детали по темам** (читать выборочно):
+4. **Транзакции, блокировки, исключения и журнал** — навык [error_handling/SKILL.md](../error_handling/SKILL.md); краткий запрет проглатывать исключения (правило 18) — в `performance-security-queries.md` ниже.
+5. **Детали по темам** (читать выборочно):
    - [reference/structure-style-i18n.md](reference/structure-style-i18n.md) — правила 1–2, 8–12
    - [reference/directives-forms-cs.md](reference/directives-forms-cs.md) — правила 3–5, 16–17, 19
    - [reference/performance-security-queries.md](reference/performance-security-queries.md) — правила 6–7, 13–15, 18
-5. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
+6. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
 
 ## Таблица правил
 
