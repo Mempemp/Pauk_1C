@@ -1,0 +1,48 @@
+# --- ОС и редакторы ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Локальные секреты и среда (не коммитить)
+.env
+.env.*
+!.env.example
+
+# --- Крупные бинарники и выгрузки 1С (часто не место в Git) ---
+*.dt
+*.cf
+*.cfu
+*.cfl
+*.epf
+*.erf
+*.ospx
+*.zip
+*.rar
+*.7z
+
+# Файлы информационной базы (если случайно окажутся в каталоге проекта)
+*.1CD
+*.1CL
+*.1CA
+*.1Cv8.*
+
+# --- EDT / Eclipse (если появится выгрузка в репо) ---
+.metadata/
+**/RemoteSystemsTempFiles/
+.recommenders/
+
+# --- Логи и временные каталоги ---
+*.log
+tmp/
+temp/
+.cache/
+
+# --- Python / Node (если появятся скрипты рядом с репо) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
