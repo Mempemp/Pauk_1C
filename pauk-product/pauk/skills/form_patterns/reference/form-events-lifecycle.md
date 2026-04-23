@@ -1,6 +1,6 @@
 # Обработчики событий формы: порядок и назначение (F4)
 
-Индекс — в [SKILL.md](../SKILL.md).
+Индекс — в [SKILL.md](../SKILL.md). Привязка процедур к событиям в **`Form.xml`** — в [form-xml-events.md](form-xml-events.md).
 
 ## Почему
 

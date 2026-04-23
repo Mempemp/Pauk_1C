@@ -10,7 +10,7 @@ description: >-
 
 ## Когда применять
 
-При любой генерации или правке кода на **BSL**. Для **ревью** или «проверь перед коммитом» сначала открой [checklist-precommit.md](checklist-precommit.md).
+При любой генерации или правке кода на **BSL**. Для **ревью** или «проверь перед коммитом» сначала открой [checklist-precommit.md](checklist-precommit.md). Для **новых объектов метаданных, префиксов и маркеров типовых доработок** — [reference/project-params-and-modifications.md](reference/project-params-and-modifications.md). Для **границ слоёв, расширений и платформенных ограничений** — [reference/architecture-and-platform.md](reference/architecture-and-platform.md). Для **типичных ошибок производительности в циклах и на границе клиент—сервер** — [reference/runtime-performance-antipatterns.md](reference/runtime-performance-antipatterns.md).
 
 ## Критический принцип
 
@@ -44,6 +44,9 @@ description: >-
    - [reference/structure-style-i18n.md](reference/structure-style-i18n.md) — правила 1–2, 8–12
    - [reference/directives-forms-cs.md](reference/directives-forms-cs.md) — правила 3–5, 16–17, 19
    - [reference/performance-security-queries.md](reference/performance-security-queries.md) — правила 6–7, 13–15, 18
+   - [reference/project-params-and-modifications.md](reference/project-params-and-modifications.md) — `.dev.env`, маркеры доработки типового кода, именование метаданных, экспортные комментарии
+   - [reference/architecture-and-platform.md](reference/architecture-and-platform.md) — слои кода, расширения, клиент-сервер, безопасность, запросы на уровне архитектуры, запахи кода
+   - [reference/runtime-performance-antipatterns.md](reference/runtime-performance-antipatterns.md) — циклы, кэш, клиент-сервер, вложенные циклы поиска пар
 6. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
 
 ## Таблица правил
