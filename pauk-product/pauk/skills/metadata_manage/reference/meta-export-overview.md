@@ -1,6 +1,6 @@
 # Выгрузка метаданных и объект конфигурации
 
-Индекс навыка — [../SKILL.md](../SKILL.md). Инструменты MCP (имена, порядок) — [../../../mcp/README.md](../../../mcp/README.md).
+Индекс навыка — [../SKILL.md](../SKILL.md). Инструменты MCP (имена, порядок) — [../../../mcp/README.md](../../../mcp/README.md). Цикл **залить/выгрузить** каталог с ИБ (Designer, `repoobjects.txt`, логи) — [../../reference/infobase-sync.md](../../reference/infobase-sync.md).
 
 ## 1. Структура выгрузки
 

@@ -10,7 +10,7 @@ description: >-
 
 ## Фокус
 
-- Согласованность с **`pauk/policy/A-INVARIANTS.md`** и выбранными навыками (**`query-patterns`**, **`error_handling`**, **`metadata_manage`** — по задаче).
+- Согласованность с **`pauk/policy/A-INVARIANTS.md`** и выбранными навыками (**`query-patterns`**, **`error_handling`**, **`metadata_manage`**, при рефакторинге / смене контрактов — **`refactor_workflow`**, при внешних **интеграциях** — **`integration_patterns`** — по задаче).
 - Границы **клиент/сервер**, **транзакции и блокировки**, **типовые** ограничения конфигурации.
 - MCP по **`pauk/mcp/README.md`**: зависимости, влияние, тяжёлые запросы — если инструменты доступны.
 

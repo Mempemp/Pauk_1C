@@ -40,7 +40,8 @@ description: >-
 2. **[templates.md](templates.md)** — заготовки общего модуля, формы, именования, строк, `НСтр()`.
 3. **Модуль управляемой формы** (события, динамические списки, ТЧ, оповещения, чеклист формы) — навык [form_patterns/SKILL.md](../form_patterns/SKILL.md); директивы и правило «один вызов вместо нескольких» — в `directives-forms-cs.md` ниже.
 4. **Транзакции, блокировки, исключения и журнал** — навык [error_handling/SKILL.md](../error_handling/SKILL.md); краткий запрет проглатывать исключения (правило 18) — в `performance-security-queries.md` ниже.
-5. **Детали по темам** (читать выборочно):
+5. **Крупный рефакторинг** (порядок top-down / bottom-up, влияние по метаданным и коду) — [refactor_workflow/SKILL.md](../refactor_workflow/SKILL.md). **Интеграции** с внешними системами (прототип вне 1С, затем BSL) — [integration_patterns/SKILL.md](../integration_patterns/SKILL.md). **Команды в Windows PowerShell** (пути, `;` вместо `&&`, HTTP-обвязка) — [powershell_windows/SKILL.md](../powershell_windows/SKILL.md).
+6. **Детали по темам** (читать выборочно):
    - [reference/structure-style-i18n.md](reference/structure-style-i18n.md) — правила 1–2, 8–12
    - [reference/directives-forms-cs.md](reference/directives-forms-cs.md) — правила 3–5, 16–17, 19
    - [reference/performance-security-queries.md](reference/performance-security-queries.md) — правила 6–7, 13–15, 18
@@ -48,7 +49,7 @@ description: >-
    - [reference/architecture-and-platform.md](reference/architecture-and-platform.md) — слои кода, расширения, клиент-сервер, безопасность, запросы на уровне архитектуры, запахи кода
    - [reference/runtime-performance-antipatterns.md](reference/runtime-performance-antipatterns.md) — циклы, кэш, клиент-сервер, вложенные циклы поиска пар
    - при подключённых MCP для 1С — [README MCP](../../mcp/README.md): имена инструментов и порядок использования (без дублирования длинных описаний в этом навыке)
-6. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
+7. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
 
 ## Таблица правил
 

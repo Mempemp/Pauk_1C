@@ -31,9 +31,10 @@ description: >-
 ## Как пользоваться навыком
 
 1. **[reference/meta-export-overview.md](reference/meta-export-overview.md)** — выгрузка, типы объектов, JSON-DSL, проверки метаданных, MCP.
-2. **[reference/form-xml-validate.md](reference/form-xml-validate.md)** — граница с `form_patterns`, проверки `Form.xml`, конвейер XML.
-3. **[checklist-metadata-form.md](checklist-metadata-form.md)** — перед фиксацией правок в метаданных или форме.
-4. При работе **с кодом в форме** — [form_patterns/SKILL.md](../form_patterns/SKILL.md); при **запросах в СКД** этого навыка недостаточно — `query-patterns` и инструменты проекта.
+2. Операции **ИБ ↔ каталог** (Designer, `LoadConfigFromFiles`, `DumpConfigToFiles`, логи) — [../reference/infobase-sync.md](../reference/infobase-sync.md), не в теле этого навыка.
+3. **[reference/form-xml-validate.md](reference/form-xml-validate.md)** — граница с `form_patterns`, проверки `Form.xml`, конвейер XML.
+4. **[checklist-metadata-form.md](checklist-metadata-form.md)** — перед фиксацией правок в метаданных или форме.
+5. При работе **с кодом в форме** — [form_patterns/SKILL.md](../form_patterns/SKILL.md); при **запросах в СКД** этого навыка недостаточно — `query-patterns` и инструменты проекта.
 
 ## Субагент и сложные сценарии
 
