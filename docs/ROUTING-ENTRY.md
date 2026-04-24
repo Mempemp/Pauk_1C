@@ -64,3 +64,15 @@
 Для **обычных** задач (`scale: trivial`) выбор маршрута и работа идут **в одном** ответе — пользователю не нужен промежуточный YAML.
 
 Для **крупных** (`scale: full`) два шага в диалоге сохраняют разделение: сначала короткая подсказка, затем — тяжёлый слой (аналитик, длинные планы, навыки по объёму). Граница — **смена хода**, не голосование по списку навыков.
+
+---
+
+## 6. Пресет объёмного сценария и handoff (классификация, BL-002 v1)
+
+**Обычный** сценарий (типичная локальная задача) **отдельного файла-команды не требует** — см. [README.md](README.md) (использование) и [PROTOCOL.md](../pauk-product/pauk/routing/PROTOCOL.md) по умолчанию `scale: trivial`.
+
+Для **заранее заданной длинной цепочки** (пресет `full-pipeline`) в пакете лежит файл **[`pauk-product/.cursor/commands/flow-full-pipeline.md`](../pauk-product/.cursor/commands/flow-full-pipeline.md)**. В **Cursor** его можно вызвать из палитры, если поддерживается папка `.cursor/commands/`; **в иных** средах с ИИ с тем же репозиторием — открыть тот же markdown вручную. Он ссылается на **«Предопределённые сценарии (пресеты)»** в [`pauk-product/pauk/subagents/WORKFLOW.md`](../pauk-product/pauk/subagents/WORKFLOW.md) и на шаблон артефакта **[`pauk-product/pauk/routing/ARTIFACT-ROUTER.md`](../pauk-product/pauk/routing/ARTIFACT-ROUTER.md)**. Содержимое: `scale: full`, **классификация** и **план** (через `task-analyst` и `ARTIFACT-ROUTER`, затем цепочка ролей по `WORKFLOW.md`).
+
+`pauk-entry` в пакете содержит шаг **0**: при **явном** задействовании подходящего файла из `.cursor/commands/` (в первую очередь `flow-full-pipeline.md`) исполнитель выравнивается с пресетом до применения пунктов 1–5 правила. Подробности — в [PROTOCOL.md](../pauk-product/pauk/routing/PROTOCOL.md) пакета.
+
+Связь с бэклогом: [BL-002](BACKLOG.md) (секция «BL-002 — детализация») закрыт на уровне **v1** — строка в таблице бэклога.
