@@ -2,7 +2,7 @@
 
 **Назначение:** единый документ на выходе шага **`task-analyst`** (или аналогичного классификационного шага) в **объёмных** сценариях. Служит **границей контекста**: следующий шаг (оркестратор, человек или роль `explore`) опирается на **этот файл**, а не на весь предыдущий поток чата.
 
-**Когда заполнять:** `scale: full` и сценарий с явным планом по субролям — см. пресеты **`full-pipeline`** и **`technical-design`** в **`pauk/subagents/WORKFLOW.md`** (команды **`flow-full-pipeline`**, **`flow-technical-design`**).
+**Когда заполнять:** сценарий с явным планом по субролям — пресеты **`full-pipeline`** и **`technical-design`** в **`pauk/subagents/WORKFLOW.md`** (команды **`flow-full-pipeline`**, **`flow-technical-design`**).
 
 **Как копировать:** вставьте в ответ пустой шаблон и заполните; при согласовании с человеком достаточно обновить разделы 2, 3, 4 и 6.
 
@@ -40,7 +40,6 @@
 
 ```yaml
 route:
-  scale: full
   skills:
     # только skill_id из pauk/routing/SKILLS-CATALOG.md
     - coding-standards

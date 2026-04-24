@@ -4,14 +4,14 @@
 
 **Обязательные ссылки пакета:**
 
-- Маршрут и масштаб: **`pauk/routing/PROTOCOL.md`**
+- Маршрут: **`pauk/routing/PROTOCOL.md`**
 - Пресет и цепочка: **`pauk/subagents/WORKFLOW.md`**, пресет **`technical-design`**
 - Handoff аналитика: **`pauk/routing/ARTIFACT-ROUTER.md`**
 - Структура каталога ТЗ: **`pauk/routing/TECHNICAL-DESIGN-SCAFFOLD.md`**
 - Каталог навыков: **`pauk/routing/SKILLS-CATALOG.md`**
 - Политика: **`pauk/policy/A-INVARIANTS.md`**
 
-**Фиксация в `route`:** `scale: full`. Первое сообщение после вызова команды — **короткое** по **`PROTOCOL.md`** (при необходимости), затем со следующего сообщения пользователя — пошаговое исполнение цепочки ниже.
+**Фиксация в `route`:** `workflow` и `skills` по пресету **`technical-design`** в **`pauk/subagents/WORKFLOW.md`**. Первый ответ и пошаговое исполнение — колонка **«Режим первого ответа»**, § **`technical-design`** там же и раздел ниже; общие правила — **`PROTOCOL.md`**.
 
 ## Порядок фаз (логика)
 
