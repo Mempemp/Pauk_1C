@@ -17,6 +17,7 @@ description: >-
 - Открытие форм, диалоги, **динамические списки**, условное оформление.
 - Синхронизация открытых форм (**оповещения**).
 - **Структура области** модуля формы, **типовые** доработки интерфейса, **`Form.xml`** и привязка событий, **конвейер** «аналог → XML → проверка → загрузка» при работе с метаданными формы.
+- Правка **`Form.xml` как разметки** (элементы, реквизиты формы, команды), генерация из DSL — см. [form-xml-structure-generation.md](reference/form-xml-structure-generation.md).
 
 ## Связь с общими стандартами BSL
 
@@ -69,6 +70,7 @@ description: >-
 | 13 | Области модуля формы, типовые формы, проверка заполнения, команды | [form-module-regions-and-typical-ui.md](reference/form-module-regions-and-typical-ui.md) |
 | 14 | События в `Form.xml` и имена обработчиков | [form-xml-events.md](reference/form-xml-events.md) |
 | 15 | Конвейер: аналог формы, XSD/XML, проверка, загрузка (MCP по контракту) | [form-metadata-xml-pipeline.md](reference/form-metadata-xml-pipeline.md) |
+| 16 | Form.xml как структура (не модуль), метаданные vs logform, DSL | [form-xml-structure-generation.md](reference/form-xml-structure-generation.md) |
 
 ## Шаблоны кода
 
