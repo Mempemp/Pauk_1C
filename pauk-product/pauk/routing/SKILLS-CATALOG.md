@@ -1,6 +1,6 @@
 # Каталог навыков
 
-Маршрут (**`route.workflow`**, **`route.skills`**) **не** является `skill_id` в этой таблице: правила — **`pauk/routing/PROTOCOL.md`**, вход — **`.cursor/rules/pauk-entry.mdc`**. В **`skills`** — **только** id из таблицы ниже; роль субагента **не заменяет** навыки, а работает **поверх** **`SKILL.md`**. **Когда** читать тела **`SKILL.md`** и показывать ли YAML `route` в чат — **`PROTOCOL.md`** и колонка **«Режим первого ответа»** в **`pauk/subagents/WORKFLOW.md`**.
+Маршрут (**`route.workflow`**, **`route.skills`**) **не** является `skill_id` в этой таблице: правила — **`pauk/routing/PROTOCOL.md`**, вход — **`.cursor/rules/pauk-entry.mdc`**. В **`skills`** — **только** id из таблицы ниже; роль субагента **не заменяет** навыки, а работает **поверх** **`SKILL.md`**. **Когда** читать тела **`SKILL.md`** и показывать ли YAML `route` в чат — **`PROTOCOL.md`** и колонка **«Режим первого ответа»** в **`pauk/subagents/WORKFLOW.md`**. Опциональные MCP — **`MCP-CATALOG.md`** в этой папке.
 
 ## Где лежит тело навыка
 

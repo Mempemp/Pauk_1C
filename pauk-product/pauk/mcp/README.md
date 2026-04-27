@@ -1,6 +1,8 @@
 # MCP
 
-Единый **справочник и контракт** по MCP для разработки на 1С в составе оснастки `pauk/`. Не дублируйте длинные описания инструментов в навыках — дайте ссылку сюда.
+Справочник по MCP для разработки на 1С в составе `pauk/`. Длинные описания инструментов в навыках не дублировать — ссылка сюда.
+
+**Маршрут опциональных серверов** (когда читать контракт вызова): **`pauk/routing/MCP-CATALOG.md`**, файлы **`pauk/mcp/route-<mcp_id>.md`**. Установка JAR и путей — в README репозитория-фабрики (раздел про MCP).
 
 ## Локальная конфигурация и порядок работы
 
@@ -13,7 +15,11 @@
 
 ---
 
+Ниже — **справочник по сторонним MCP** (имена инструментов, сценарии). Они **не** перечислены в **`pauk/routing/MCP-CATALOG.md`**; маршрут «читать контракт заранее» только у серверов из каталога и файлов **`pauk/mcp/route-<mcp_id>.md`**.
+
 # MCP Tools Reference for 1C Development
+
+Apply the rules and tool-priority hints below **only** to MCP servers that actually appear in the session tool schema; if none of those servers are present, use skills, file reads, and grep as usual.
 
 This file describes available MCP tools for 1C development. Reference this file instead of duplicating tool descriptions.
 

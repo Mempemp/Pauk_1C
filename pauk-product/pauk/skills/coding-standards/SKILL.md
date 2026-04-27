@@ -48,7 +48,7 @@ description: >-
    - [reference/project-params-and-modifications.md](reference/project-params-and-modifications.md) — `.dev.env`, маркеры доработки типового кода, именование метаданных, экспортные комментарии
    - [reference/architecture-and-platform.md](reference/architecture-and-platform.md) — слои кода, расширения, клиент-сервер, безопасность, запросы на уровне архитектуры, запахи кода
    - [reference/runtime-performance-antipatterns.md](reference/runtime-performance-antipatterns.md) — циклы, кэш, клиент-сервер, вложенные циклы поиска пар
-   - при подключённых MCP для 1С — [README MCP](../../mcp/README.md): имена инструментов и порядок использования (без дублирования длинных описаний в этом навыке)
+   - справка по **встроенному API платформы** (сигнатуры, типы) — при подключённом сервере из **`pauk/routing/MCP-CATALOG.md`**: сначала **`pauk/mcp/route-<mcp_id>.md`**, затем при необходимости [README MCP](../../mcp/README.md); прочие MCP (метаданные, код, граф и т.д.) — по [README MCP](../../mcp/README.md), имена только из схемы сессии
 7. **[checklist-precommit.md](checklist-precommit.md)** — чеклист перед фиксацией.
 
 ## Таблица правил
